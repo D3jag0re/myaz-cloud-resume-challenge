@@ -1,8 +1,8 @@
 ## Cloud Resume Challenge 
 This repo is to track progress as I complete the "Cloud Resume Challenge" in Azure.\
-I will be focusing on using the DevOps Mods where applicable. \
+I will be focusing on using the DevOps Mods where applicable. 
 
-Steps will be as follows: \
+Steps will be as follows: 
 
 Week 0: Certification prep [ ] 
   * AZ-104 [ ]
@@ -18,7 +18,7 @@ Week 1: Building The Front End [ ]
   * DNS configuration [ ]
   * DevOps Mod:
     * GitHub Repo [ ]
-    * Convert resources to IaC []
+    * Convert resources to IaC [ ]
       * Azure Storage Blob [ ]
       * CDN endpoint [ ]
       * Etc. 
