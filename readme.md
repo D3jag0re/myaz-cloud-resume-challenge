@@ -8,7 +8,7 @@ Steps will be as follows:
   - [ ] AZ-104
   - [ ] AZ-305
   - [ ] AZ-400
-  - [ ]This will be ongoing but AZ-104 will mark this step complete. 
+  - [ ] This will be ongoing but AZ-104 will mark this step complete. 
 
 ## Week 1: Building The Front End [ ]
   - [X] Azure environment setup 
@@ -27,38 +27,38 @@ Steps will be as follows:
     - [ ] GitHub Actions (Build, Deploy, Smoke Test) 
 
 ## Week 2: Building The API [ ]
-  * Database [ ]
-  * API [ ]
-  * Python for Azure Function [ ]
-  * Source Control [X]
+  - [ ] Database
+  - [ ] API
+  - [ ] Python for Azure Function
+  - [X] Source Control
 
   * **DevOps Mod:**
-    * Establishing Metrics [ ]
-    * Setup Azure Monitor alert [ ]
-    * Create action group for handling alerts [ ]
-    * Set email alerts [ ]
-    * Test [ ]
-    * Connect alert to Slack [ ]
+    - [ ] Establishing Metrics
+    - [ ] Setup Azure Monitor alert
+    - [ ] Create action group for handling alerts
+    - [ ] Set email alerts
+    - [ ] Test
+    - [ ] Connect alert to Slack
 
 ## Week 3: Front / Back - end integration [ ]
-  * Javascript for visitor counter [ ]
-  * Tests  [ ]
+  - [ ] Javascript for visitor counter
+  - [ ] Tests 
 
   * **DevOps Mod:**
-    * Test that loads site and confirm the visitor count [ ]
+    - [ ] Test that loads site and confirm the visitor count
 
 ## Week 4: Automation / CI [ ] 
-  * Infrastructure As Code [ ]
-  * CI/CD Back end [ ]
-  * CI/CD Front end [ ]
+  - [ ] Infrastructure As Code
+  - [ ] CI/CD Back end
+  - [ ] CI/CD Front end
 
     * **DevOps Mod:**
-    * Setup RG strictly for testing [ ]
-    * CI/CD Change to deploy to test env, only allowing merge to main if all checks pass [ ]
-    * Make sure each PR has a fresh copy of test infra associated with it [ ]
+    - [ ] Setup RG strictly for testing
+    - [ ] CI/CD Change to deploy to test env, only allowing merge to main if all checks pass
+    - [ ] Make sure each PR has a fresh copy of test infra associated with it
 
 ## Week 5: The blog [ ]
-  * Will put notes in the repo but will convert to a blog afterward.
+  - [ ] Will put notes in the repo but will convert to a blog afterward.
 
   
 
