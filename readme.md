@@ -11,6 +11,7 @@ Steps will be as follows:
   * This will be ongoing but AZ-104 will mark this step complete. 
 
 ## Week 1: Building The Front End [ ]
+  * Azure environment setup [X]
   * Write resume in HTML [ ]
   * Style resume using CSS [ ]
   * Deploy on static website [ ]
@@ -58,6 +59,18 @@ Steps will be as follows:
 
 ## Week 5: The blog [ ]
   * Will put notes in the repo but will convert to a blog afterward.
+
+  ----------
+
+  Test:
+
+## Week 1: Building The Front End [ ]
+  - [X] Azure environment setup 
+  - [] Write resume in HTML [ ]
+  - [] Style resume using CSS [ ]
+  - [] Deploy on static website [ ]
+  - [] HTTPS configuration  [ ]
+  - [] DNS configuration [ ]
 
 
 
