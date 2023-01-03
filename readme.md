@@ -5,26 +5,26 @@ I will be focusing on using the DevOps Mods where applicable.
 Steps will be as follows: 
 
 ## Week 0: Certification prep [ ] 
-  * AZ-104 [ ]
-  * AZ-305 [ ]
-  * AZ-400 [ ]
-  * This will be ongoing but AZ-104 will mark this step complete. 
+  - [ ] AZ-104
+  - [ ] AZ-305
+  - [ ] AZ-400
+  - [ ]This will be ongoing but AZ-104 will mark this step complete. 
 
 ## Week 1: Building The Front End [ ]
-  * Azure environment setup [X]
-  * Write resume in HTML [ ]
-  * Style resume using CSS [ ]
-  * Deploy on static website [ ]
-  * HTTPS configuration  [ ]
-  * DNS configuration [ ]
+  - [X] Azure environment setup 
+  - [ ] Write resume in HTML
+  - [ ] Style resume using CSS
+  - [ ] Deploy on static website
+  - [ ] HTTPS configuration 
+  - [ ] DNS configuration 
 
   * **DevOps Mod:**
-    * GitHub Repo [X]
-    * Convert resources to IaC [ ]
-      * Azure Storage Blob [ ]
-      * CDN endpoint [ ]
-      * Etc.
-    * GitHub Actions (Build, Deploy, Smoke Test) [ ] 
+    - [X] GitHub Repo
+    - [ ] Convert resources to IaC
+      - [ ] Azure Storage Blob 
+      - [ ] CDN endpoint 
+      - [ ] Etc.
+    - [ ] GitHub Actions (Build, Deploy, Smoke Test) 
 
 ## Week 2: Building The API [ ]
   * Database [ ]
@@ -60,18 +60,7 @@ Steps will be as follows:
 ## Week 5: The blog [ ]
   * Will put notes in the repo but will convert to a blog afterward.
 
-  ----------
-
-  Test:
-
-## Week 1: Building The Front End [ ]
-  - [X] Azure environment setup 
-  - [ ] Write resume in HTML [ ]
-  - [ ] Style resume using CSS [ ]
-  - [ ] Deploy on static website [ ]
-  - [ ] HTTPS configuration  [ ]
-  * [] DNS configuration [ ]
-
+  
 
 
   
