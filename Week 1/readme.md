@@ -16,8 +16,10 @@ With the help of codepen.io I was able to quickly modify a CSS file to fit the s
 
 ## Deploy On Static Website (+DevOps Mod)
 
-I have decided to use Terraform from the beginning of this challenge to tackle any IaC needs. 
-
+I have decided to use Terraform from the beginning of this challenge to tackle any IaC needs. My TF file will need to do the following:
+  - [ ] Create Resource Group
+  - [ ] Create Blob Storage 
+  - [ ] 
 
 ## Week 1: Building The Front End [ ]
   - [X] Azure environment setup 
