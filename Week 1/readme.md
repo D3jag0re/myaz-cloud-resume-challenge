@@ -19,7 +19,7 @@ With the help of codepen.io I was able to quickly modify a CSS file to fit the s
 I have decided to use Terraform from the beginning of this challenge to tackle any IaC needs. My TF file will need to do the following:
   - [ ] Create Resource Group
   - [ ] Create Blob Storage 
-  - [ ] 
+  - [ ] Create CDN Endpoint 
 
 ## Week 1: Building The Front End [ ]
   - [X] Azure environment setup 
