@@ -3,7 +3,6 @@ var.tfvars
 tfplan
 tfplan.txt
 .terraform/**
-terraform/**
 .terraform.lock.hcl
 *.tfstate
 *.tfstate.backup
