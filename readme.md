@@ -12,8 +12,8 @@ Steps will be as follows:
 
 ## Week 1: Building The Front End [ ]
   - [X] Azure environment setup 
-  - [ ] Write resume in HTML
-  - [ ] Style resume using CSS
+  - [X] Write resume in HTML
+  - [X] Style resume using CSS
   - [ ] Deploy on static website
   - [ ] HTTPS configuration 
   - [ ] DNS configuration 
