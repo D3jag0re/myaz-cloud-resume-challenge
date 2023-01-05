@@ -32,7 +32,7 @@ I have decided to use Terraform from the beginning of this challenge to tackle a
   * **DevOps Mod:**
     - [X] GitHub Repo
     - [ ] Convert resources to IaC
-      - [ ] Azure Storage Blob 
+      - [ ] Azure Storage
       - [ ] CDN endpoint 
       - [ ] Etc.
     - [ ] GitHub Actions (Build, Deploy, Smoke Test) 

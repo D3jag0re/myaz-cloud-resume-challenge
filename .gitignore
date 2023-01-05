@@ -4,6 +4,8 @@ tfplan
 tfplan.txt
 .terraform/**
 .terraform.lock.hcl
+*/.terraform/**
+*/.terraform.lock.hcl
 *.tfstate
 *.tfstate.backup
 *.pem 
