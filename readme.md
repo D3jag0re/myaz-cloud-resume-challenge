@@ -52,7 +52,7 @@ Steps will be as follows:
   - [ ] CI/CD Back end
   - [ ] CI/CD Front end
 
-    * **DevOps Mod:**
+  * **DevOps Mod:**
     - [ ] Setup RG strictly for testing
     - [ ] CI/CD Change to deploy to test env, only allowing merge to main if all checks pass
     - [ ] Make sure each PR has a fresh copy of test infra associated with it
