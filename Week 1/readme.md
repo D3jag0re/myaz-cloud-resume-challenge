@@ -35,5 +35,5 @@ I have decided to use Terraform from the beginning of this challenge to tackle a
       - [ ] Azure Storage
       - [ ] CDN endpoint 
       - [ ] Etc.
-    - [ ] GitHub Actions (Build, Deploy, Smoke Test) 
+    - [ ] GitHub Actions (Build, Deploy, Smoke Test)
 
