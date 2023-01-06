@@ -17,7 +17,9 @@ resource "azurerm_resource_group" "prod" {
   location = var.location
 }
 
-resource "azurerm_storage_account" "example" {
+# Configure storage account and enable it to host a static website
+
+resource "azurerm_storage_account" "prod" {
   name                     = var.saname
   resource_group_name      = azurerm_resource_group.prod.name
   location                 = azurerm_resource_group.prod.location
@@ -36,6 +38,29 @@ resource "azurerm_storage_account" "example" {
   }
 }
 
+# Configure Azure CDN for use with custom domain and enforcing HTTPS 
 
+resource "azurerm_cdn_profile" "prod" {
+  name                = "CR-CDNProfile"
+  location            = azurerm_resource_group.prod.location
+  resource_group_name = azurerm_resource_group.prod.name
+  sku                 = "Standard_Verizon"
+
+  tags = {
+    environment = "production"
+  }
+}
+
+resource "azurerm_cdn_endpoint" "prod" {
+  name                = "CR-CDNEndpoint"
+  profile_name        = azurerm_cdn_profile.prod.name
+  location            = azurerm_resource_group.prod.location
+  resource_group_name = azurerm_resource_group.prod.name
+
+  origin {
+    name      = "origin"
+    host_name = "mycloudresumesa968.z9.web.core.windows.net/"
+  }
+}
 
 
