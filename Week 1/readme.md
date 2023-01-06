@@ -27,7 +27,7 @@ I have decided to use Terraform from the beginning of this challenge to tackle a
   - [X] Style resume using CSS
   - [X] Deploy on static website
   - [X] HTTPS configuration 
-  - [ ] DNS configuration 
+  - [X] DNS configuration 
 
   * **DevOps Mod:**
     - [X] GitHub Repo

@@ -60,7 +60,7 @@ resource "azurerm_cdn_endpoint" "prod" {
   origin {
     name      = "origin"
     host_name = var.origin
-    origin_host_header = var.origin
+    #origin_host_header = var.origin
   }
 }
 
