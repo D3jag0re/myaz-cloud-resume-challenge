@@ -64,4 +64,12 @@ resource "azurerm_cdn_endpoint" "prod" {
   }
 }
 
+# Configure custom domain 
+
+resource "azurerm_cdn_endpoint_custom_domain" "example" {
+  name            = "example-domain"
+  cdn_endpoint_id = azurerm_cdn_endpoint.prod.id
+  host_name       = var.domain
+}
+
 

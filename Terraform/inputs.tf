@@ -18,5 +18,11 @@ variable "origin" {
     type = string
     description = "Origin for CDN"
 }
+
+variable "domain" {
+    type = string
+    description = "Custom domain"
+}
+   
    
    
