@@ -25,15 +25,15 @@ I have decided to use Terraform from the beginning of this challenge to tackle a
   - [X] Azure environment setup 
   - [X] Write resume in HTML
   - [X] Style resume using CSS
-  - [ ] Deploy on static website
-  - [ ] HTTPS configuration 
+  - [X] Deploy on static website
+  - [X] HTTPS configuration 
   - [ ] DNS configuration 
 
   * **DevOps Mod:**
     - [X] GitHub Repo
     - [ ] Convert resources to IaC
-      - [ ] Azure Storage
-      - [ ] CDN endpoint 
+      - [X] Azure Storage
+      - [X] CDN endpoint 
       - [ ] Etc.
     - [ ] GitHub Actions (Build, Deploy, Smoke Test)
 

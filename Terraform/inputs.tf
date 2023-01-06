@@ -11,6 +11,12 @@ variable "location" {
 
 variable "saname" {
     type = string
-    description = "Storage Account Name "
+    description = "Storage Account Name"
 }
+
+variable "origin" {
+    type = string
+    description = "Origin for CDN"
+}
+   
    

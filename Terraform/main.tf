@@ -29,7 +29,7 @@ resource "azurerm_storage_account" "prod" {
   enable_https_traffic_only = true 
   
   static_website {
-    index_document = "index.html"
+    index_document = "resumecontent.html"
     #error_404_document = "404.html"
   }
 
@@ -59,7 +59,8 @@ resource "azurerm_cdn_endpoint" "prod" {
 
   origin {
     name      = "origin"
-    host_name = "mycloudresumesa968.z9.web.core.windows.net/"
+    host_name = var.origin
+    origin_host_header = var.origin
   }
 }
 
