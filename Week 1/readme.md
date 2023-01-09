@@ -34,6 +34,8 @@ I have decided to use Terraform from the beginning of this challenge to tackle a
     - [ ] Convert resources to IaC
       - [X] Azure Storage
       - [X] CDN endpoint 
-      - [ ] Etc.
-    - [ ] GitHub Actions (Build, Deploy, Smoke Test)
+    - [ ] GitHub Actions
+      - [X] Build 
+      - [ ] Deploy
+      - [ ] Smoke Test
 

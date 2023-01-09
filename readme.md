@@ -20,11 +20,13 @@ Steps will be as follows:
 
   * **DevOps Mod:**
     - [X] GitHub Repo
-    - [ ] Convert resources to IaC
+    - [X] Convert resources to IaC
       - [X] Azure Storage 
       - [X] CDN endpoint 
-      - [ ] Etc.
-    - [ ] GitHub Actions (Build, Deploy, Smoke Test) 
+    - [ ] GitHub Actions
+      - [X] Build 
+      - [ ] Deploy
+      - [ ] Smoke Test
 
 ## Week 2: Building The API [ ]
   - [ ] Database
