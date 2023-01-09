@@ -44,7 +44,7 @@ resource "azurerm_cdn_profile" "prod" {
   name                = "CR-CDNProfile"
   location            = azurerm_resource_group.prod.location
   resource_group_name = azurerm_resource_group.prod.name
-  sku                 = "Standard_Verizon"
+  sku                 = "Standard_Microsoft"
 
   tags = {
     environment = "production"
@@ -62,6 +62,23 @@ resource "azurerm_cdn_endpoint" "prod" {
     host_name = var.origin
     #origin_host_header = var.origin
   }
+
+# Adding rules to force and redirect HTTPS
+
+  delivery_rule {
+      name  = "EnforceHTTPS"
+      order = "1"
+
+      request_scheme_condition {
+        operator     = "Equal"
+        match_values = ["HTTP"]
+      }
+
+      url_redirect_action {
+        redirect_type = "Found"
+        protocol      = "Https"
+      }
+    }
 }
 
 # Configure custom domain 
