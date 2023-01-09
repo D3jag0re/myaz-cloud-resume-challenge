@@ -31,7 +31,8 @@ I have decided to use Terraform from the beginning of this challenge to tackle a
 
   * **DevOps Mod:**
     - [X] GitHub Repo
-    - [ ] Convert resources to IaC
+    - [X] Convert resources to IaC
+      - [X] Resource Group
       - [X] Azure Storage
       - [X] CDN endpoint 
     - [ ] GitHub Actions
