@@ -21,6 +21,7 @@ Steps will be as follows:
   * **DevOps Mod:**
     - [X] GitHub Repo
     - [X] Convert resources to IaC
+      - [X] Resource Group
       - [X] Azure Storage 
       - [X] CDN endpoint 
     - [ ] GitHub Actions
