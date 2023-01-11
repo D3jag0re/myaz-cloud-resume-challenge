@@ -30,17 +30,17 @@ Notes
     - [ ] Connect alert to Slack
 
 **Goal 1: Get Azure Function Talking to Database:**
-	- [ ] New RG for API 
-	- [ ] Setup Python Azure Function
-	- [ ] Setup CosmoDB Table 
-	- [ ] Setup Bindings between table and function
-	- [ ] write the Python code in your Azure Function that will save a value to the CosmosDB table
-	- [ ] Set up your output bindings so that the updated value is returned from the function
+  - [ ] New RG for API 
+  - [ ] Setup Python Azure Function
+  - [ ] Setup CosmoDB Table 
+  - [ ] Setup Bindings between table and function
+  - [ ] write the Python code in your Azure Function that will save a value to the CosmosDB table
+  - [ ] Set up your output bindings so that the updated value is returned from the function
 	
 **Goal 2: Trigger Azure Function From Outside:**
-	- [ ] Set up the HTTP trigger for your Azure
+  - [ ] Set up the HTTP trigger for your Azure
 	Function, 
-	- [ ] Grab the public URL for your function and test it using
+  - [ ] Grab the public URL for your function and test it using
 	an external API testing service
 	
 **Goal 3: Trigger your Azure Function from your static site**
