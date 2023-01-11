@@ -12,6 +12,8 @@ provider "azurerm" {
   features {}
 }
 
+# Configure resource group for static site hosting (storage, CDN)
+
 resource "azurerm_resource_group" "prod" {
   name     = var.rgname
   location = var.location
@@ -90,3 +92,37 @@ resource "azurerm_cdn_endpoint_custom_domain" "example" {
 }
 
 
+### Week 2 ### 
+
+# Configure Resource Group for API
+
+resource "azurerm_resource_group" "prodAPI" {
+  name     = var.rgnameAPI
+  location = var.location
+}
+
+# Configure App Service Plan (Consumption Serverless)
+
+resource "azurerm_service_plan" "prodSP" {
+  name                = "example-app-service-plan"
+  resource_group_name = azurerm_resource_group.prodAPI.name
+  location            = azurerm_resource_group.prodAPI.location
+  os_type             = "Linux"
+  sku_name            = "Y1"
+}
+
+resource "azurerm_linux_function_app" "pythonfa" {
+  name                = var.faname
+  resource_group_name = azurerm_resource_group.prodAPI.name
+  location            = azurerm_resource_group.prodAPI.location
+
+  storage_account_name       = azurerm_storage_account.prod.name
+  storage_account_access_key = azurerm_storage_account.prod.primary_connection_string
+  service_plan_id            = azurerm_service_plan.prodSP.id
+
+  site_config {
+    application_stack {
+      python_version = 3.9
+    }
+  }
+}

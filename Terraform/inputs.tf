@@ -23,6 +23,15 @@ variable "domain" {
     type = string
     description = "Custom domain"
 }
-   
+
+variable "rgnameAPI" {
+    type = string
+    description = "Resource Group Name"
+}
+
+variable "faname" {
+    type = string
+    description = "Function App Name"
+}
    
    
