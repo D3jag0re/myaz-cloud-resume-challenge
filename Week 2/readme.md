@@ -8,7 +8,7 @@ As per the challenge I will use the Table API of Azure’s CosmosDB for this usi
 
 ## API
 
-Notes
+Building the new RG / App Service Plan, and Function App was pretty straightforward using Terraform. 
 
 ## Python
 
@@ -32,7 +32,7 @@ Notes
 **Goal 1: Get Azure Function Talking to Database:**
   - [X] New RG for API 
   - [X] Setup Python Azure Function
-  - [ ] Setup CosmoDB Table (Table API - Serverless Mode)
+  - [X] Setup CosmoDB Table (Table API - Serverless Mode)
   - [ ] Setup Bindings between table and function
   - [ ] write the Python code in your Azure Function that will save a value to the CosmosDB table
   - [ ] Set up your output bindings so that the updated value is returned from the function

@@ -34,4 +34,9 @@ variable "faname" {
   description = "Function App Name"
 }
 
+variable "dbname" {
+  type        = string
+  description = "DB Name"
+}
+
    
