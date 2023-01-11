@@ -31,7 +31,7 @@ Notes
 
 **Goal 1: Get Azure Function Talking to Database:**
   - [X] New RG for API 
-  - [ ] Setup Python Azure Function
+  - [X] Setup Python Azure Function
   - [ ] Setup CosmoDB Table (Table API - Serverless Mode)
   - [ ] Setup Bindings between table and function
   - [ ] write the Python code in your Azure Function that will save a value to the CosmosDB table
