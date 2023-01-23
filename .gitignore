@@ -9,3 +9,6 @@ tfplan.txt
 *.tfstate
 *.tfstate.backup
 *.pem 
+.python_packages
+__pycache__
+.venv

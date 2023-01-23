@@ -145,6 +145,8 @@ resource "azurerm_cosmosdb_account" "db" {
   capabilities {
     name = "EnableServerless"
   }
+
+
   ########
   consistency_policy {
     consistency_level       = "BoundedStaleness"
@@ -157,4 +159,11 @@ resource "azurerm_cosmosdb_account" "db" {
     failover_priority = 0
   }
 
+}
+
+  resource "azurerm_cosmosdb_table" "table" {
+  name                = "res-cosmos-table"
+  resource_group_name = azurerm_cosmosdb_account.db.resource_group_name
+  account_name        = azurerm_cosmosdb_account.db.name
+  throughput          = 400
 }
