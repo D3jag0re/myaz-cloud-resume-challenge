@@ -34,7 +34,17 @@ variable "faname" {
   description = "Function App Name"
 }
 
+variable "dbaccount" {
+  type        = string
+  description = "DB Name"
+}
+
 variable "dbname" {
+  type        = string
+  description = "DB Name"
+}
+
+variable "dbcontainer" {
   type        = string
   description = "DB Name"
 }

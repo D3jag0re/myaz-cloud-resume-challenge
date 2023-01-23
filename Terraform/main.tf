@@ -129,8 +129,8 @@ resource "azurerm_linux_function_app" "pythonfa" {
 
 # Configure Cosmo DB Account using Serverless capacity mode
 
-resource "azurerm_cosmosdb_account" "db" {
-  name                = var.dbname
+resource "azurerm_cosmosdb_account" "dbaccount" {
+  name                = var.dbaccount
   location            = azurerm_resource_group.prodAPI.location
   resource_group_name = azurerm_resource_group.prodAPI.name
   offer_type          = "Standard"
@@ -154,5 +154,21 @@ resource "azurerm_cosmosdb_account" "db" {
     location          = var.location
     failover_priority = 0
   }
+
+}
+
+resource "azurerm_cosmosdb_sql_database" "db" {
+  name                = var.dbname
+  resource_group_name = azurerm_cosmosdb_account.dbaccount.resource_group_name
+  account_name        = azurerm_cosmosdb_account.dbaccount.name
+}
+
+resource "azurerm_cosmosdb_sql_container" "example" {
+  name                  = var.dbcontainer
+  resource_group_name   = azurerm_cosmosdb_account.dbaccount.resource_group_name
+  account_name          = azurerm_cosmosdb_account.dbaccount.name
+  database_name         = azurerm_cosmosdb_sql_database.db.name
+  partition_key_path    = "/pages"
+  partition_key_version = 1
 
 }
