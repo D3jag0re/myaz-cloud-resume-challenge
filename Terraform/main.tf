@@ -139,10 +139,6 @@ resource "azurerm_cosmosdb_account" "db" {
   enable_automatic_failover = false
 
   capabilities {
-    name = "EnableTable"
-  }
-
-  capabilities {
     name = "EnableServerless"
   }
 
@@ -159,11 +155,4 @@ resource "azurerm_cosmosdb_account" "db" {
     failover_priority = 0
   }
 
-}
-
-  resource "azurerm_cosmosdb_table" "table" {
-  name                = "res-cosmos-table"
-  resource_group_name = azurerm_cosmosdb_account.db.resource_group_name
-  account_name        = azurerm_cosmosdb_account.db.name
-  throughput          = 400
 }
